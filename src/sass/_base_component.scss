@@ -1,6 +1,7 @@
 
 .layout {
   display: flex;
+  background-color: #1a1956 !important; /* esto es una prueba para plataforma Riviera */
 
   @include media-breakpoint-down('lg') {
     flex-direction: column;
